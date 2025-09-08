@@ -4,7 +4,7 @@
   padding: 0;
 }
 body {
-  background-color: lightgray;
+  background-color: #e7eaee;
   color: #000;
   font-family: Roboto;
 }
@@ -24,17 +24,21 @@ video {
   background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   padding: 15px;
   gap: 20px;
 }
 
+.card img {
+  height: 280px;
+  align-self: stretch;
+}
+
 .card h1 {
-  font-family: Roboto;
   font-size: 27px;
   font-style: normal;
   font-weight: 400;
-  line-height: 35px; /* 129.63% */
+  line-height: 35px;
 }
 
 .author img {
@@ -46,4 +50,21 @@ video {
   display: flex;
   flex-direction: row;
   gap: 20px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.name {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.date {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
 }
